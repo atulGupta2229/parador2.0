@@ -1,0 +1,32 @@
+#banner{
+	min-height: 500px;
+	background: url(../images/web-design.jpg);
+	background-size: cover;
+	position: relative;
+}
+#nav{
+	height: 100px;
+	background: rgba(96,125,139,0.7);
+	position: fixed;
+	z-index: 999;
+}
+ul{
+	list-style: none;
+	display: inline-block;
+}
+li{
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 1.4em;
+}
+#search{
+	width: 400px;
+	height: 40px;
+	border-radius: 5px 0px 0px 5px;
+	border-color: transparent;
+	outline: none;
+	padding: 5px;
+}
+#sbtn{
+	display: inline;
+}
