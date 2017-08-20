@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 #banner{
 	min-height: 500px;
 	background: url(../images/web-design.jpg);
@@ -13,16 +14,11 @@
 	transition: 0.7s;
 	margin-left: -15px;
 }
-@media screen and (max-width: 480px){
-	#nav{
-		background:  blue;
-		height: 60px;
-	}
-}
 ul{
 	list-style: none;
 }
 li{
+	font-family: 'Quicksand', sans-serif;
 	display: inline-block;
 	margin-left: 0px;
 	font-size: 1em;
@@ -36,6 +32,7 @@ li:hover{
 	color: #4FC3F7;
 }
 #search{
+	font-family: 'Quicksand', sans-serif;
 	width: 400px;
 	height: 40px;
 	border-radius: 5px 0px 0px 5px;
@@ -46,6 +43,7 @@ li:hover{
 	display: inline-block;
 }
 #sbtn{
+	font-family: 'Quicksand', sans-serif;
 	height: 40px;
 	width: 80px;
 	border: none;
@@ -53,8 +51,8 @@ li:hover{
 	background: rgba(41,182,246, 1);
 }
 #featured{
-	min-height: 400px;
-	background: url(../images/ft2.jpg);
+	min-height: 350px;
+	background: url(../images/ft3.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 }
@@ -71,7 +69,7 @@ strong{
 	color: #29B6F6;
 }
 ::-webkit-scrollbar {
-    width: 3px;  /* remove scrollbar space */
+    width: 5px;  /* remove scrollbar space */
     background: rgba(0,0,0,0.5);
     padding: 3px;
 }
@@ -83,15 +81,13 @@ strong{
 #menu{
 	float: right;
 	display: inline-block;
-	margin-right: 60px;
+	margin-right: 120px;
 }
 .feat{
 	padding-top: 20px;
 	height: 330px;
-	width: 260px;
+	width: 290px;
 	background: rgba(0,0,0, 0.9);
-	margin-top: 30px;
-	margin-bottom: 30px;
 }
 #hiw{
 	padding-top: 30px;
@@ -99,8 +95,45 @@ strong{
 }
 #team{
 	min-height: 400px;
-	background: url(../images/ft3.jpg);
+	background: url(../images/ft2.jpg);
 	background-size: cover;
 	background-attachment: fixed;
 	padding-top: 30px;
+	color: white
+}
+#res-menu-btn{
+	float: right;
+	font-size: 25px;
+	margin-top: 15px;
+	color: white;
+	padding-top: 3px;
+	border-radius: 5px;
+	display: none;
+	text-align: center;
+	height: 40px;
+	width: 40px;
+	background: rgba(0,0,0,0.6);
+}
+#footer{
+	min-height: 300px;
+	background: #607D8B;
+}
+@media screen and (max-width: 480px){
+	#menu{
+		display: none;
+	}
+	#hd{
+		padding-left: 0px;
+		text-align: center;
+	}
+	#res-menu-btn{
+		display: block;
+		margin-right: 20px;
+	}
+	#search{
+		width: 250px;
+	}
+	#feat{
+		margin-top: 30px;
+	}
 }
