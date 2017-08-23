@@ -51,13 +51,29 @@
 				<input type="text" name="search" class="input-group" id="search" placeholder="Search in your location..."><span id="sbtn"><button type="submit" id="sbtn">Search</button></span><br><br>
 				<span style="font-size: 3em; color: white; background: rgba(0,0,0,0.7);padding: 10px;font-family: 'Quicksand', sans-serif;">Find Your Parador</span>
 			</center>
+			<center>
+				<div id="loc">
+					<span class="points">· BBD University</span><span class="points">· IET Lucknow</span><span class="points">· Integeral University</span>
+				</div>
+			</center>
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-12" id="hiw">
 			<center>
 				<span class="h1 text-center" style="font-family: 'Quicksand', sans-serif;">Explore</span>
-			</center>
+			</center><br>
+			<br><br>
+			<div class="row">
+				<div class="col-sm-12">
+					<center>
+						<div class="">
+							<img src="assets/images/girl.png" width="160px" style="margin-right: 0px">
+							<img src="assets/images/boy.png" width="160px" style="margin-left: 0px">
+						</div>
+					</center>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="row">
@@ -122,8 +138,12 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-sm-12" id="footer">
-			
+		<div class="col-sm-12" id="footer"><br><br>
+			<center>
+			<span style="font-size: 15px;">copyright 2017, Parador&trade;</span>
+			<br>
+				<img src="assets/images/parador.png" width="80px">
+			</center>
 		</div>
 	</div>
 </div>
