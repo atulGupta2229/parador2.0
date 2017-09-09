@@ -12,13 +12,13 @@
 			
 			$(window).scroll(function(){
 				if($(window).width()>480){
-				if(this.pageYOffset>=160){
+				if(this.pageYOffset>=40){
 					$("#nav").attr("style","padding-top:0px");
 					$("li").attr("style","padding: 20px 33px 15px 33px;");
 					$("#nav").css({background:"rgba(96,125,139,1)",height:"60px"});
 					$("#hd").attr("style","padding-left: 100px;padding-top: 15px;font-size: 20px;");
 				}
-				if(this.pageYOffset<160){
+				if(this.pageYOffset<40){
 					$("#nav").css({background:"rgba(96,125,139,0.7)",height:"80px"});
 					$("li").attr("style","padding: 33px 33px 23px 33px;");
 					$("#hd").attr("style","padding-left: 200px;padding-top: 20px;");
@@ -36,7 +36,7 @@
 			</div>
 			<div id="menu">
 				<ul>
-					<li>Home</li>
+					<li class="active">Home</li>
 					<li>Top Hostels</li>
 					<li>Featured</li>
 				</ul>
@@ -44,6 +44,9 @@
 			<div id="res-menu-btn">
 				<i class="fa fa-bars" aria-hidden="true"></i>
 			</div>			
+		</div>
+		<div >
+			
 		</div>
 	<div class="row">
 		<div class="col-sm-12" id="banner" style="padding-top: 200px;">
@@ -67,6 +70,9 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<center>
+					<span style="font-size: 2em">
+						I 'm a?
+					</span>
 						<div class="">
 							<img src="assets/images/girl.png" width="160px" style="margin-right: 0px">
 							<img src="assets/images/boy.png" width="160px" style="margin-left: 0px">
@@ -81,9 +87,15 @@
 			<div class="col-sm-4">
 			<center>
 			<br>
-				<div class="feat">
-					
-				</div>
+			<div class="feat">
+			<center>
+				<img src="assets/images/mbgirls.jpg" width="90%">
+			</center>
+			<div class="overlay">
+				
+			</div>
+			</div>
+			
 			</center>
 			</div>
 			<div class="col-sm-4">
@@ -134,6 +146,9 @@
 		<div class="col-sm-12" id="team">
 			<center>
 				<span class="h1 text-center" style="padding: 20px; background: rgba(0,0,0,0.7);font-family: 'Quicksand', sans-serif;">Why Parador<sup style="font-size: 20px;">TM</sup>?</span>
+				<div class="col-sm-12 wu" >
+					
+				</div>
 			</center>
 		</div>
 	</div>

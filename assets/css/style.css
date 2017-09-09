@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 #banner{
-	min-height: 500px;
-	background: url(../images/web-design.jpg);
+	min-height: 620px;
+	background: url(../images/bg.jpg);
 	background-size: cover;
 	position: relative;
-	background-attachment: fixed;
+	background-attachment: scroll;
 }
 #nav{
 	height: 80px;
@@ -23,12 +23,12 @@ li{
 	display: inline-block;
 	margin-left: 0px;
 	font-size: 1em;
-	padding: 33px 33px 23px 33px;
+	padding: 33px 33px 22px 33px;
 	cursor: default;
 	transition: color 0.3s;
 	transition: padding 0.6s;
 }
-li:hover{
+li:hover , .active{
 	border-bottom: 5px solid #4FC3F7;
 	color: #4FC3F7;
 }
@@ -82,13 +82,21 @@ strong{
 #menu{
 	float: right;
 	display: inline-block;
-	margin-right: 120px;
+	margin-right: 20px;
 }
 .feat{
 	padding-top: 20px;
-	height: 330px;
+	padding-bottom: 20px;
+	min-height: 200px;
 	width: 290px;
-	background: rgba(0,0,0, 0.9);
+	background: rgba(240,240,240, 0.9);
+	z-index: 99;
+	position: relative;
+}
+.overlay{
+	background: rgba(0,0,0,0.9);
+	height: 200px;
+	position: fixed;
 }
 #hiw{
 	padding-top: 30px;
@@ -116,6 +124,7 @@ strong{
 	background: rgba(0,0,0,0.6);
 }
 #footer{
+	bottom: 0px;
 	min-height: 300px;
 	background: #607D8B;
 }
@@ -129,6 +138,11 @@ strong{
 	margin: 0px 30px 0px 30px;
 	font-size: 20px;
 	font-weight: bold;
+}
+.wu{
+	margin-top: 3%;
+	min-height: 250px;
+	background: rgba(0,0,0,0.7);
 }
 
 
@@ -161,4 +175,140 @@ strong{
 	#loc{
 		margin-top: 40px;
 	}
+}
+.login{
+	margin-top: 100px;
+	padding-bottom: 3%;
+	min-height: 250px;
+	background: rgba(254,254,254, 0.95);
+}
+.head{	
+}
+.head a{
+	text-decoration: none;
+	color: #333;
+}
+.inp{
+	margin-top: 4%;
+	width: 80%;
+	height: 40px;
+	background: transparent;
+	outline: none;
+	padding:7px;
+	font-size: 1em;
+	transition: width 0.3s;
+	border: 1px solid #333;
+}
+.inp:focus{
+	width: 90%;
+}
+.bt{
+	margin-top: 3%;
+	border-radius: 0%;
+	width: 80%;
+	height: 40px;
+	outline: none;
+	background: #29B6F6;
+	border: none;
+	transition: background 0.4s
+}
+.bt:hover{
+	background: #29B6F6;
+	border:1px solid #29B6F6;
+}
+.ftr-login{
+	bottom: 0;
+	position: fixed;
+	width: 100%;
+	min-height: 25px;
+	background: rgba(0,0,0,0.7);
+}
+.viewBody{
+	min-height: 500px;
+}
+.hostelSlider{
+	margin-top: 15%;
+	margin-bottom: 5%;
+	min-height: 500px;
+	width: 100%;
+	background: rgba(240,240,240,0.6);
+}
+.hostelDetails{
+	margin-top: 8.5%;
+	min-height: 500px;
+	width: 100%;
+	background: rgba(240,240,240,0.6);
+}
+.hvr-bubble-top{
+	outline: none;
+}
+.hv-body{
+	margin-top: 80px;
+}
+.sld{
+	margin-left: 1%;
+	margin-right: 1%;
+	height: 400px;
+	background: #fff;
+	/*background-image: url(../images/mbgirls.JPG);*/
+	background-size: 100% 100%;
+}
+.about{
+	margin-left: 1%;
+	margin-right: 1%;
+	min-height: 400px;
+	background: #fff;	
+}
+.head-title{
+	width: 100%;
+	min-height: 60px;
+	background: #546E7A;
+	margin-bottom: 1%;
+}
+.qsand{
+	font-family: 'Quicksand', sans-serif;
+}
+.hostel-title{
+	min-height: 70px;
+	background: rgba(84, 110, 122,0.8);
+}
+.hostel-details{
+	min-height: 420px;
+	background: #fff;
+	margin-left: 1.8%;
+	margin-right: 1.8%;
+	margin-top: 4%;
+}
+.slider{
+	margin-top: 3%;
+}
+.abt{
+	margin-top: 3%;
+}
+.btn{
+	border-radius: 0;
+	height: 45px;
+	cursor: default;
+	border: none;
+	outline: none;
+}
+.ftr{
+	height: 200px;
+	background: rgba(96,125,139,1);
+}
+.rev{
+	min-height: 80px;
+	background: #f3f3f3;
+	margin-top: 3%;
+}
+.dp{
+	min-height: 80px;
+	margin-top: 4%;
+}
+textarea{
+	width: 100%;
+	height: 80px;
+	resize: none;
+	border: none;
+	padding: 2%;
 }
