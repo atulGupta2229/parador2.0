@@ -36,9 +36,9 @@
 			</div>
 			<div id="menu">
 				<ul>
-					<li class="active">Home</li>
-					<li>Top Hostels</li>
-					<li>Featured</li>
+					<li class="activ nav-tab">Home</li>
+					<li class="nav-tab">Top Hostels</li>
+					<li class="nav-tab">Featured</li>
 				</ul>
 			</div>
 			<div id="res-menu-btn">
